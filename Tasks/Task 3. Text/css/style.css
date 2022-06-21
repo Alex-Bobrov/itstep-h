@@ -1,0 +1,30 @@
+h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+h2{
+    font-size: 24px;
+    font-style: italic;
+}
+p{
+    font-size: 14px;
+    font-weight: normal;
+}
+.clgreen{
+    color: green;
+}
+.clblue{
+    color: blue;
+}
+.clbrown{
+    color: brown;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.reb{
+    color: rebeccapurple;
+}
