@@ -1,0 +1,22 @@
+pre{
+    font-size: 30px;
+    color: hsl(187, 4%, 62%);
+    word-spacing: 6px;
+    letter-spacing: 4px;
+    line-height: 60px;
+}
+ins + span{
+    text-decoration: overline; 
+ }
+ .bo{
+    font-weight: 900;
+ }
+ins del{
+    text-shadow: 2px 2px 4px orange;
+}
+.px{
+    font-size: 35px;
+}
+.pink{
+    color: rgba(252, 15, 192, 0.3);
+}
