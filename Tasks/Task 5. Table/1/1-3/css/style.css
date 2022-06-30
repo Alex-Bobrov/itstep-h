@@ -1,0 +1,26 @@
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    background-color: #b04c4c;
+    color: white;        
+}
+td{
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    border: 5px solid #000;    
+}
+td:nth-child(1){
+    vertical-align: top;
+}
+td:nth-child(3){
+    vertical-align: bottom;
+}
+tr:nth-child(1) td:nth-child(-n+3){
+    text-align: left;
+}
+tr:nth-child(3) td:nth-child(-n+3){
+    text-align: right;
+}

@@ -1,0 +1,31 @@
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    color: #000;
+    
+}
+caption{
+    
+    text-align: center;
+    vertical-align: middle;
+    font-size: 60px;
+     
+}
+td{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+    
+}
+.clgrey{
+    color: rgb(128, 128, 128);
+}
+.clred{
+    color: rgb(177, 10, 10);
+}
+.img{
+    width: 10px;
+    height: 10px;
+}
