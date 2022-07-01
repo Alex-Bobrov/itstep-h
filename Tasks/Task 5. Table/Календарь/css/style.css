@@ -25,7 +25,7 @@ td{
 .clred{
     color: rgb(177, 10, 10);
 }
-.img{
-    width: 10px;
-    height: 10px;
+tr:nth-child(2) td:nth-child(7){
+    background-image: url(../img/124.jpg);
+    background-size: cover;
 }

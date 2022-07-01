@@ -1,0 +1,11 @@
+<style>
+body{
+	background: url(body.jpg) no-repeat;
+	-moz-background-size: 100%;
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+}
+</style>
+
+style="background-attachment:fixed" topmargin="0"
