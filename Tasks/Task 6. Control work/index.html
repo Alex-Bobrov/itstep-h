@@ -16,14 +16,15 @@
         -o-background-size: 100%;
         background-size: 100%;
     }
-    </style>
+</style>
 <body style="background-attachment:fixed" topmargin="0">
     <div class="box">
-        <h1>JavaScript</h1>
+        <h1>JavaScript</h1><link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
         <ol>
             <li><a href="#menu1">История создания</a></li>
             <li><a href="#menu2">Краткий обзор языка</a></li>
             <li><a href="#menu3">Примеры кода</a></li>
+            <li><a href="#menu4">Популярность языков</a></li>
          </ol>
          <h2 id="menu1">История создания:</h2>
          <p>Отдел фронтенд-разработки компании <span class="clblue">Лайв Тайпинг</span> перевёл для читателей Хабра большой материал о зарождении, развитии и перспективах языка JavaScript, вышедший в блоге сервиса Auth0. Сегодня мы публикуем первую часть перевода. Соперничество Netscape и Mosaic, грёзы об интерактивном вебе, язык программирования для не-программистов, переход от классов к прототипам и что общего между JavaScript и ECMAScript (спойлер: всё).</p>
@@ -48,7 +49,7 @@
         <h2 id="menu2">Краткий обзор языка:</h2>
         <p><b>JavaScript</b> – это язык программирования, который добавляет интерактивность на ваш веб-сайт (например: игры, отклик при нажатии кнопок или при вводе данных в формы, динамические стили, анимация). Эта статья поможет вам начать работать с этим захватывающим языком и даст вам представление о том, на что он способен.</p>
         <h3><b><ins>Что такое JavaScript на самом деле?</ins></b></h3>
-        <p><ins><span class="clblue">JavaScript</span></ins> ("JS" для краткости) — это полноценный <ins><span class="clblue">динамический язык программирования</span></ins>, который применяется к <ins><span class="clblue">HTML</span></ins> документу, и может обеспечить динамическую интерактивность на веб-сайтах. Его разработал Brendan Eich, сооснователь проекта Mozilla, Mozilla Foundation и Mozilla Corporation.</p>
+        <p><a href="https://developer.mozilla.org/ru/docs/Glossary/JavaScript">JavaScript</a> ("JS" для краткости) — это полноценный <a href="https://developer.mozilla.org/ru/docs/Glossary/Dynamic_programming_language">динамический язык программирования</a>, который применяется к <a href="https://developer.mozilla.org/ru/docs/Glossary/HTML">HTML</a> документу, и может обеспечить динамическую интерактивность на веб-сайтах. Его разработал Brendan Eich, сооснователь проекта Mozilla, Mozilla Foundation и Mozilla Corporation.</p>
         <p>JavaScript невероятно универсален и дружелюбен к новичкам. Обладая большим опытом, вы сможете создавать игры, анимированную 2D и 3D графику, полномасштабные приложения с базами данных и многое другое!</p>
         <p>JavaScript сам по себе довольно компактный, но очень гибкий. Разработчиками написано большое количество инструментов поверх основного языка JavaScript, которые разблокируют огромное количество дополнительных функций с очень небольшим усилием. К ним относятся:</p>
         <ul>
@@ -66,22 +67,22 @@
             <li>Далее перейдите в ваш index.html файл и введите следующий элемент на новой строке прямо перед закрывающим тегом &lt;/body&gt;</li>
         </ul>
         <pre>
-            &lt;script src="scripts/main.js"&gt;&lt;/script&gt;
+            &lt;<span class="clgreen">script</span> <span class="clred">src</span>="<span class="clgreen">scripts/main.js</span>"&gt;&lt;/<span class="clgreen">script</span>&gt;
         </pre>
-        <ul>
+        <ul class="image">
             <li>В основном этот код выполняет ту же работу, что и элемент &lt;<ins><span class="clblue">link</span></ins>&gt; для CSS — добавляет JavaScript на страницу, позволяя ему взаимодействовать с HTML (и CSS, и чем-нибудь ещё на странице).</li>
-            <li>Теперь добавьте следующий код в файл main.js:</li>
+            <li>Теперь добавьте следующий код в файл <span class="clblue">main.js</span>:</li>
         </ul>
         
         <pre>
-            var myHeading = document.querySelector('h1');
-            myHeading.textContent = 'Hello world!';
+            <span class="clblue">var</span> myHeading = document.querySelector(<span class="clgreen">'h1'</span>);
+            myHeading.textContent = <span class="clgreen">'Hello world!'</span>;
         </pre>
         <ul>
-            <li>Теперь убедитесь, что HTML и JavaScript файлы сохранены, и загрузите index.html в браузере. Вы должны увидеть что-то вроде этого:</li>
+            <li>Теперь убедитесь, что HTML и JavaScript файлы сохранены, и загрузите <span class="clblue">index.html</span> в браузере. Вы должны увидеть что-то вроде этого:</li>
         </ul>
         <img class="mimg" src="./img/hello-world.png" alt="">
-        <h3 id="menu3">Примеры кода</h3>
+        <h2 id="menu3">Примеры кода</h2>
         <h4>Изменяющаяся кнопка:</h4>
         <pre>
             &lt;SCRIPT LANGUAGE="JavaScript"&gt;
@@ -150,6 +151,131 @@
                    &lt;/script&gt;&lt;/p&gt;
                 &lt;/form&gt;
         </pre>
+        <h2 id="menu4">Популярность языков</h2>
+        <table>
+            <tr>
+                <td>JavaScript</td>
+                <td colspan="40" bgcolor="#002e1e" style="color: white;">18.8%</td>
+            </tr>
+            <tr>
+                <td width="50px">C#</td>
+                <td colspan="32" bgcolor="#054a32" style="color: white;">14.7</td>          
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td colspan="31" bgcolor="#0a593e" style="color: white;">14.3</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td colspan="24" bgcolor="#0e6346" style="color: white;">11.2</td>
+            </tr>
+            <tr>
+                <td>PHP</td>
+                <td colspan="23" bgcolor="#146e4f" style="color: white;">10.6</td>
+            </tr>
+            <tr>
+                <td>TypeScript</td>
+                <td colspan="21" bgcolor="#1d7d5c" style="color: white;">10.4</td>
+            </tr>
+            <tr>
+                <td>Kotlin</td>
+                <td colspan="16" bgcolor="#258a67" style="color: white;">3.4</td>
+            </tr>
+            <tr>
+                <td>Swift</td>
+                <td colspan="16" bgcolor="#258a67" style="color: white;">3.4</td>
+            </tr>
+            <tr>
+                <td>C++</td>
+                <td colspan="14" bgcolor="#339e79" style="color: white;">3.3</td> 
+            </tr>
+            <tr>
+                <td>Go</td>
+                <td colspan="13" bgcolor="#41ab86" style="color: white;">2.2</td>
+            </tr>
+            <tr>
+                <td>Rudy</td>
+                <td colspan="12" bgcolor="#52ba96" style="color: white;">2.1</td>
+            </tr>
+            <tr>
+                <td>Dart</td>
+                <td colspan="10" bgcolor="#68d4ae" style="color: white;">1</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td colspan="8" bgcolor="#a6adab" style="color: white;">1</td>
+            </tr>
+            <tr>
+                <td>Scale</td>
+                <td colspan="7" bgcolor="#a6adab" style="color: white;">0.9</td>
+            </tr>
+            <tr>
+                <td>1C</td>
+                <td colspan="7" bgcolor="#a6adab" style="color: white;">0.7</td>
+            </tr>
+            <tr>
+                <td>Apex</td>
+                <td colspan="6" bgcolor="#a6adab" style="color: white;">0.6</td>
+            </tr>
+            <tr>
+                <td>Groovy</td>
+                <td colspan="5" bgcolor="#a6adab" style="color: white;">0.3</td>
+            </tr>
+            <tr>
+                <td>Objective-C</td>
+                <td colspan="4" bgcolor="#a6adab" style="color: white;">0.2</td>
+            </tr>
+            <tr>
+                <td>Rust</td>
+                <td colspan="4" bgcolor="#a6adab" style="color: white;">0.2</td>
+            </tr>
+            <tr>
+                <td>Clojure</td>
+                <td colspan="2" bgcolor="#a6adab" style="color: white;">0.1</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
     </div>     
 </body>
 </html>

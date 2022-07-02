@@ -6,12 +6,21 @@ body{
 h1{
     text-align: center;
     font-size: 24px;
-    font-family: Splash;
+    font-family: 'Lobster', cursive;
 }
 h2{
     font-size: 18px;
 }
 .clblue{
+    color: rgb(0, 26, 255);
+}
+.clgreen{
+    color: rgb(0, 126, 0);
+}
+.clred{
+    color: rgb(255, 0, 0);
+}
+a{
     color: rgb(0, 26, 255);
 }
 .box{
@@ -21,9 +30,9 @@ h2{
     left: 0;
     right: 0;
     margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
 }
 .mimg{
     width: 1200px;
@@ -33,4 +42,20 @@ pre{
 }
 .ok{
     list-style-image: url(./img/ok.png);
+}
+table{
+    height: 500px;
+    width: 800px;    
+    font-size: 14px;
+}
+td{
+    color: #000;
+    height: 50px;
+    vertical-align: middle;
+    padding-left: 10px;
+    
+}
+td:nth-child(1){
+    text-align: right;
+    width: 100px;
 }
